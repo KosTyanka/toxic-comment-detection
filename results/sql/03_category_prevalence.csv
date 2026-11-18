@@ -1,0 +1,13 @@
+﻿dataset_split,label_name,scored_comments,positives,prevalence
+test,identity_hate,63978,712,0.011129
+test,insult,63978,3427,0.053565
+test,obscene,63978,3691,0.057692
+test,severe_toxic,63978,367,0.005736
+test,threat,63978,211,0.003298
+test,toxic,63978,6090,0.095189
+train,identity_hate,159571,1405,0.008805
+train,insult,159571,7877,0.049364
+train,obscene,159571,8449,0.052948
+train,severe_toxic,159571,1595,0.009996
+train,threat,159571,478,0.002996
+train,toxic,159571,15294,0.095844

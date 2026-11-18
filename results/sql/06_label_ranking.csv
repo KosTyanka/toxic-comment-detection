@@ -1,0 +1,13 @@
+﻿dataset_split,label_name,positives,prevalence_rank
+test,toxic,6090,1
+test,obscene,3691,2
+test,insult,3427,3
+test,identity_hate,712,4
+test,severe_toxic,367,5
+test,threat,211,6
+train,toxic,15294,1
+train,obscene,8449,2
+train,insult,7877,3
+train,severe_toxic,1595,4
+train,identity_hate,1405,5
+train,threat,478,6

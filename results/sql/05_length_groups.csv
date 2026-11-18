@@ -1,0 +1,7 @@
+﻿dataset_split,length_group,comments,toxic_rate
+test,01 short (<100),18132,0.17687
+test,02 medium (100-499),32824,0.077657
+test,03 long (500+),13022,0.037398
+train,01 short (<100),41575,0.160241
+train,02 medium (100-499),83969,0.089057
+train,03 long (500+),34027,0.061275

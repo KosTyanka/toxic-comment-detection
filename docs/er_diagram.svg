@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 720" role="img" aria-label="Normalized toxic comment SQLite ER diagram">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#087f8c"/></marker></defs>
+<rect width="1160" height="720" fill="#f6f8fb"/>
+<g fill="white" stroke="#17283d" stroke-width="2">
+<rect x="30" y="80" width="285" height="235" rx="6"/><rect x="420" y="50" width="300" height="170" rx="6"/>
+<rect x="830" y="70" width="290" height="110" rx="6"/><rect x="420" y="350" width="320" height="225" rx="6"/>
+<rect x="30" y="420" width="285" height="250" rx="6"/><rect x="830" y="460" width="290" height="140" rx="6"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="19" fill="#17283d">
+<text x="50" y="116" font-size="24" font-weight="bold">comments</text><text x="50" y="155">PK comment_id</text>
+<text x="50" y="190">comment_text</text><text x="50" y="225">dataset_split</text><text x="50" y="260">character_count</text><text x="50" y="295">word_count</text>
+<text x="440" y="85" font-size="24" font-weight="bold">labels</text><text x="440" y="123">PK, FK comment_id</text><text x="440" y="158">PK, FK label_name</text><text x="440" y="193">label_value (0/1)</text>
+<text x="850" y="108" font-size="24" font-weight="bold">label_types</text><text x="850" y="150">PK label_name</text>
+<text x="440" y="390" font-size="24" font-weight="bold">predictions</text><text x="440" y="430">PK, FK run_id</text><text x="440" y="465">PK, FK comment_id</text><text x="440" y="500">PK, FK label_name</text><text x="440" y="535">probability, predicted_label</text>
+<text x="50" y="457" font-size="24" font-weight="bold">model_runs</text><text x="50" y="497">PK run_id</text><text x="50" y="532">model_name, configuration</text><text x="50" y="567">training_time (seconds)</text><text x="50" y="602">peak_memory (MiB RSS)</text><text x="50" y="637">created_at</text>
+<text x="850" y="500" font-size="24" font-weight="bold">metadata</text><text x="850" y="540">PK key</text><text x="850" y="575">value (JSON manifest)</text>
+</g>
+<g fill="none" stroke="#087f8c" stroke-width="3" marker-end="url(#arrow)">
+<path d="M315 130 H420"/><path d="M830 125 H720"/><path d="M170 315 V370 H390 V465 H420"/>
+<path d="M315 495 H420"/><path d="M975 180 V310 H710 V350"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="16" fill="#087f8c"><text x="335" y="115">1 : many</text><text x="739" y="110">1 : many</text><text x="225" y="355">1 : many</text><text x="330" y="485">1 : many</text><text x="900" y="293">1 : many</text></g>
+<text x="35" y="35" font-family="Arial,sans-serif" font-size="23" fill="#17283d">Toxic Comment Detection - SQLite relationships</text>
+</svg>

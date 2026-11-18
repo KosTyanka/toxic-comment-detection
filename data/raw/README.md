@@ -1,0 +1,1 @@
+Download the official Jigsaw CSV files using your own Kaggle account. Accept the competition terms before downloading. Place train.csv, test.csv and test_labels.csv here; sample_submission.csv is optional. No source comment text is distributed in this repository.
